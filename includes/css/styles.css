@@ -13,7 +13,12 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Layout
    -------------------------------------- */
-
+#features{
+  text-align: center;
+}
+#features img{
+  margin:0 0 20px 0;
+}
 
 
 /* --------------------------------------
@@ -76,14 +81,27 @@ Notes:	 Hand coded for Udemy.com
   text-indent: 40px;
   text-align: justify;
 }
-
+#moreInfo img.thumbnail{
+  margin: 0 10px 10px 0;
+}
+.thumbnails{
+  margin: 20px 0px;
+}
+.logo{
+  font-size: 22px;
+}
+footer{
+  text-align: center;
+}
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-
+  .logo{
+    font-size: 14px;
+  }
 }
 
 /* Landscape phone to portrait tablet */
