@@ -83,8 +83,8 @@
           </div><!-- end item -->
           <div class="item" id="slide2">
             <div class="carousel-caption">
-              <h4></h4>
-              <p></p>
+              <h4>TamedPets.com</h4>
+              <p>The only exotic petshop in Chennai.</p>
             </div><!-- end carousel-caption-->
           </div><!-- end item -->
         </div><!-- end carousel-inner -->
@@ -192,55 +192,70 @@
 												 <div class="modal-body">
 													 <form class="form-horizontal">
 														 <div class="form-group">
-															 <label class="col-sm-3 control-label" for="inputName">Name</label>
-															 <div class="col-sm-9">
+															 <label class="col-lg-3 control-label" for="inputName">Name</label>
+															 <div class="col-lg-9">
 															   <input class="form-control" id="inputName" type="text"></input>
 														   </div>
 														 </div><!-- end form-group -->
 														 <div class="form-group">
-															 <label class="col-sm-3 control-label" for="inputEmail">Email</label>
-															 <div class="col-sm-9">
+															 <label class="col-lg-3 control-label" for="inputEmail">Email</label>
+															 <div class="col-lg-9">
 															   <input class="form-control" id="inputEmail" type="text"></input>
 														   </div>
 														 </div><!-- end form-group -->
 														 <div class="form-group">
-															 <label class="col-sm-3 control-label" for="inputPhnNo">Phone No</label>
-															 <div class="col-sm-9">
+															 <label class="col-lg-3 control-label" for="inputPhnNo">Phone No</label>
+															 <div class="col-lg-9">
 															   <input class="form-control" id="inputPhnNo" type="text"></input>
 														   </div>
 														 </div><!-- end form-group -->
 														 <div class="form-group">
-															 <label class="col-sm-3 control-label" for="inputLocation">Location</label>
-															 <div class="col-sm-9">
+															 <label class="col-lg-3 control-label" for="inputLocation">Location</label>
+															 <div class="col-lg-9">
 															   <textarea class="form-control" id="inputLocation" type="text" rows="3"></textarea>
 														   </div>
 														 </div><!-- end form-group -->
-														 <div class="form-group">
+														 <div class="form-group" id="radiobtn">
 															 <label>How did you hear about this site?</label>
-															 <div>
-															   <input id="option1" type="radio">Internet Search</input>
-																 <input id="option2" type="radio">Friend</input>
-																 <input id="option3" type="radio">Advertisement</input>
-																 <input id="option4" type="radio">Others</input>
-														   </div>
-														 </div><!-- end form-group -->
+														   <div>
+  														   <label class="radio-inline">
+                                   <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Internet Search
+                                 </label>
+                                 <label class="radio-inline">
+                                   <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Friend
+                                 </label>
+                                 <label class="radio-inline">
+                                   <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Advertisement
+                                 </label>
+  														   <label class="radio-inline">
+                                   <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">Others
+                                 </label>
+															 </div>
+													  </div>
+
 														 <div class="form-group">
-															 <label class="col-sm-3 control-label" for="inputOthers">Others(please specify)</label>
-															 <div class="col-sm-9">
+															 <label class="col-lg-3 control-label" for="inputOthers">Others(please specify)</label>
+															 <div class="col-lg-9">
 															   <input class="form-control" id="inputOthers" type="text"></input>
 														   </div>
 														 </div><!-- end form-group -->
-														 <div class="form-group">
+														 <div class="form-group" id="radiobtn">
 															 <label>Kindly mention your interest level</label>
 															 <div>
-															   <input id="option1" type="radio">Just a query</input>
-																 <input id="option2" type="radio">Interested to buy</input>
-																 <input id="option3" type="radio">Badly looking for it</input>
+																 <label class="radio-inline">
+                                   <input type="radio" name="inlineRadioOptions1" id="inlineRadio1" value="option1">Just a query
+                                 </label>
+                                 <label class="radio-inline">
+                                   <input type="radio" name="inlineRadioOptions1" id="inlineRadio2" value="option2">Interested to buy
+                                 </label>
+                                 <label class="radio-inline">
+                                   <input type="radio" name="inlineRadioOptions1" id="inlineRadio3" value="option3">Badly looking for it
+                                 </label>
 														   </div>
 														 </div><!-- end form-group -->
 														 <div class="form-group">
-															 <label class="col-sm-12 control-label" for="inputOtherinfo">Any other information you would like to share with us?</label>
-															 <div class="col-sm-12 ">
+															 <label class="col-lg-12" for="inputOtherinfo">Any other information you would like to share with us?</label>
+															 <div class="col-lg-12 ">
 															   <textarea class="form-control" id="inputOtherInfo" type="text" rows="3"></textarea>
 														   </div>
 														 </div><!-- end form-group -->
@@ -257,7 +272,7 @@
 						</div><!-- end tab-content -->
 				  </div><!-- end tabbable -->
 			  </div><!-- end col-sm-6 -->
-				<div class="col-sm-6">
+				<div class="col-sm-5 col-offset-1">
 					<h3>PAYMENT AND SHIPPING</h3>
 					<h4>Payment details:</h4>
 					<p>We are flexible in the mode of payment as per your convenience.
@@ -289,12 +304,10 @@
 						<div class="col-4">
 							<div class="thumbnail">
 								<img src="images/sold.png"/>
-								<div class="caption">
-								  <h4>Availability</h4>
-								  <p>
-									  <a href="http://www.tamedpets.com/availability.html" class="btn btn-primary btn-small" target="_blank">
-											To know availability of pets..</a></p>
-								</div><!-- end caption -->
+								 <div class="caption">
+								   <h4>Availability</h4>
+								   <a href="http://www.tamedpets.com/availability.html" class="btn btn-primary btn-small" target="_blank">To know availability of pets..</a>
+								 </div><!-- end caption -->
 							</div><!-- end thumbnail -->
 						</div><!-- end col-4 -->
 						<div class="col-4">
@@ -302,9 +315,7 @@
 								<img src="images/petbook.jpg"/>
 								<div class="caption">
 								  <h4>Pet Books</h4>
-								   <p><a href="http://www.tamedpets.com/pet-books.html" class="btn btn-primary btn-small" target="_blank">
-											Suggested Pet books..</a>
-								   </p>
+								  <a href="http://www.tamedpets.com/pet-books.html" class="btn btn-primary btn-small" target="_blank">Suggested Pet books..</a>
 							 </div><!-- end caption -->
 							</div><!-- end thumbnail -->
 						</div><!-- end col-4 -->
@@ -313,8 +324,7 @@
 								<img src="images/accessories.jpg"/>
 								<div class="caption">
 								  <h4>Pet Accessories and Toys</h4>
-								  <p><a href="http://www.tamedpets.com/pet-accessories--toys.html" class="btn btn-primary btn-small" target="_blank">To know more..</a>
-								  </p>
+								  <a href="http://www.tamedpets.com/pet-accessories--toys.html" class="btn btn-primary btn-small" target="_blank">To know more..</a>
 								</div><!-- end caption -->
 							</div><!-- end thumbnail -->
 						</div><!-- end col-4 -->
@@ -328,19 +338,25 @@
     <footer>
 			<div class="container">
 				<div class="row">
-					<div class="social_sites">
-						<div class="col-sm-6">
-						  <img src="images/twitter_logo.jpg"/>
-						  <span class="label label-info logo">Twitter</span>
-					  </div>
-						<div class="col-sm-6">
-						  <img src="images/fb_logo.png"/>
-						  <span class="label label-info logo">Facebook</span>
-					  </div>
-					</div>
-					<div class="col-sm-12">
-						<h6>Helping People Keep Happy Healthy Pets Since 1996. - www.TamedPets.com. All content rights reserved.</h6>
+					<div class="col-sm-6 social_sites">
+						<h4>Social links</h4>
+						<div class="col-sm-4">
+		          <img src="images/twitter_logo.jpg" class="img-circle">
+		          <span class="label label-default logo">Twitter</span>
+		        </div>
+		        <div class="col-sm-4">
+		          <img src="images/fb_logo.png"class="img-circle">
+		          <span class="label label-default logo">Facebook</span>
+		        </div>
+		        <div class="col-sm-4">
+		          <a href="https://plus.google.com/+Tamedpets"><img src="images/google+.png" class="img-circle"/>
+		          <span class="label label-default logo">Google+</span></a>
+		        </div>
 					</div><!-- end social-sites -->
+
+					<div class="col-sm-6" id="copyrights">
+						<p class="lead">Helping People Keep Happy Healthy Pets Since 1996. - www.TamedPets.com. All content rights reserved.</p>
+					</div>
 				</div><!-- end row -->
 			</div><!-- end container -->
     </footer>

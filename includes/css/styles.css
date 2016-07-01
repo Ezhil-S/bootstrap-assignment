@@ -49,9 +49,11 @@ Notes:	 Hand coded for Udemy.com
 #myCarousel,#picture{
   margin-top: 150px;
 }
-
-#myCarousel .item{
+#myCarousel .item,#picture .col-12{
   height:400px;
+}
+#pic{
+  height: 180px;
 }
 .carousel-caption{
   font-size: 20px;
@@ -59,19 +61,24 @@ Notes:	 Hand coded for Udemy.com
 .carousel-caption h4{
   font-size: 32px;
 }
+
 #slide1{
-  background: url('../../images/Pets_medium.jpg') top center no-repeat;
-}
-#slide2{
   background: url('../../images/dogs_medium.jpg') top center no-repeat;
 }
-/*#picture{
-    background: url('../../images/love_pets.png') top center no-repeat;
-}*/
+#slide2{
+  background: url('../../images/Pets_medium.jpg') top center no-repeat;
+}
+#picture{
+  background: url('../../images/lovely_pet_medium.png') top center no-repeat;
+}
+#pic{
+  background: url('../../images/apartment_medium.jpg') top center no-repeat;
+}
+
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
-.well{
+#bigCallout .well{
   margin:20px 0;
 }
 .well .page-header{
@@ -81,8 +88,8 @@ Notes:	 Hand coded for Udemy.com
   text-align: center;
   margin-top: 0;
 }
-#bigCallout.well .page-header p{
-  text-indent: 40px;
+#bigCallout .well .page-header p{
+  text-indent: 30px;
 }
 #moreInfo .thumbnail img,.well img{
   margin: 0 10px 10px 0;
@@ -99,14 +106,21 @@ Notes:	 Hand coded for Udemy.com
 #moreInformation img{
   margin: 0 0 10px 20px;
 }
+#radiobtn {
+  padding-left: 15px;
+}
 .thumbnails{
   margin: 20px 0px;
 }
-.logo{
-  font-size: 22px;
-}
 footer{
+     background: #333;
+     color:#eee;
+  font-size: 20px;
+  padding-left: 30px;
   text-align: center;
+}
+#copyrights .lead{
+  margin-top:40px;
 }
 /* --------------------------------------
    Media Queries
@@ -114,15 +128,16 @@ footer{
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-  .logo{
-    font-size: 14px;
-  }
+
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-  #myCarousel .item{
+  #myCarousel .item,#picture .col-12{
     height:310px;
+  }
+  #pic .well{
+    height:100px;
   }
   .carousel-caption{
     font-size: 16px;
@@ -131,24 +146,39 @@ footer{
     font-size: 22px;
   }
   #slide1{
-    background: url('../../images/Pets_small.jpg') top center no-repeat;
+    background: url('../../images/dogs_small.jpg') top center no-repeat;
   }
   #slide2{
-    background: url('../../images/dogs_small.jpg') top center no-repeat;
+    background: url('../../images/Pets_small.jpg') top center no-repeat;
+  }
+  #picture{
+    background: url('../../images/lovely_pet_small.png') top center no-repeat;
+  }
+  #pic{
+    background: url('../../images/apartment_small.jpg') top center no-repeat;
   }
 
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
-  #myCarousel .item{
+  #myCarousel .item,#picture .col-12{
     height:500px;
   }
+  #pic .well{
+    height:180px;
+  }
   #slide1{
-    background: url('../../images/Pets_large.jpg') top center no-repeat;
+    background: url('../../images/dogs_large.jpg') top center no-repeat;
   }
   #slide2{
-    background: url('../../images/dogs_large.jpg') top center no-repeat;
+    background: url('../../images/Pets_large.jpg') top center no-repeat;
+  }
+  #picture{
+    background: url('../../images/lovely_pet_large.png') top center no-repeat;
+  }
+  #pic{
+    background: url('../../images/apartment.jpg') top center no-repeat;
   }
 
 }
